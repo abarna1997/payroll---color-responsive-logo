@@ -1,0 +1,27 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('permission_categories', function (Blueprint $table) {
+            $table->id();
+            $table->string('name')->unique();                     // Employee, Payroll…
+            $table->string('slug')->unique();                     // employee, payroll…
+            $table->string('icon', 80)->nullable();               // bi-people, bi-wallet…
+            $table->string('color', 20)->nullable();
+            $table->integer('sort_order')->default(0);
+            $table->enum('status', ['Active', 'Inactive'])->default('Active');
+            $table->timestamps();
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('permission_categories');
+    }
+};

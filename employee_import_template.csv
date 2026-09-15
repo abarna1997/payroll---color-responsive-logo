@@ -1,0 +1,31 @@
+Employee Number,EPF Number,First Name,Last Name,Gender,Date of Birth,NIC,Email,Mobile Number,Designation,Join Date,Department,Company,Branch,Shift,ADMS User ID,ADMS Sync PIN
+EMP001,1001,John,Doe1,Male,1990-01-01,901234501V,john1@example.com,0770000001,Executive,2023-01-01,Sales,Prime One Right,Head Office,Morning,1001,1001
+EMP002,1002,John,Doe2,Male,1990-01-02,901234502V,john2@example.com,0770000002,Executive,2023-01-02,Sales,Prime One Right,Head Office,Morning,1002,1002
+EMP003,1003,John,Doe3,Male,1990-01-03,901234503V,john3@example.com,0770000003,Executive,2023-01-03,Sales,Prime One Right,Head Office,Morning,1003,1003
+EMP004,1004,John,Doe4,Male,1990-01-04,901234504V,john4@example.com,0770000004,Executive,2023-01-04,Sales,Prime One Right,Head Office,Morning,1004,1004
+EMP005,1005,John,Doe5,Male,1990-01-05,901234505V,john5@example.com,0770000005,Executive,2023-01-05,Sales,Prime One Right,Head Office,Morning,1005,1005
+EMP006,1006,John,Doe6,Male,1990-01-06,901234506V,john6@example.com,0770000006,Executive,2023-01-06,Sales,Prime One Right,Head Office,Morning,1006,1006
+EMP007,1007,John,Doe7,Male,1990-01-07,901234507V,john7@example.com,0770000007,Executive,2023-01-07,Sales,Prime One Right,Head Office,Morning,1007,1007
+EMP008,1008,John,Doe8,Male,1990-01-08,901234508V,john8@example.com,0770000008,Executive,2023-01-08,Sales,Prime One Right,Head Office,Morning,1008,1008
+EMP009,1009,John,Doe9,Male,1990-01-09,901234509V,john9@example.com,0770000009,Executive,2023-01-09,Sales,Prime One Right,Head Office,Morning,1009,1009
+EMP010,1010,John,Doe10,Male,1990-01-10,901234510V,john10@example.com,0770000010,Executive,2023-01-10,Sales,Prime One Right,Head Office,Morning,1010,1010
+EMP011,1011,Jane,Smith1,Female,1992-02-01,921234501V,jane1@example.com,0771110001,Manager,2023-02-01,HR,Altitude Right,Head Office,Morning,1011,1011
+EMP012,1012,Jane,Smith2,Female,1992-02-02,921234502V,jane2@example.com,0771110002,Manager,2023-02-02,HR,Altitude Right,Head Office,Morning,1012,1012
+EMP013,1013,Jane,Smith3,Female,1992-02-03,921234503V,jane3@example.com,0771110003,Manager,2023-02-03,HR,Altitude Right,Head Office,Morning,1013,1013
+EMP014,1014,Jane,Smith4,Female,1992-02-04,921234504V,jane4@example.com,0771110004,Manager,2023-02-04,HR,Altitude Right,Head Office,Morning,1014,1014
+EMP015,1015,Jane,Smith5,Female,1992-02-05,921234505V,jane5@example.com,0771110005,Manager,2023-02-05,HR,Altitude Right,Head Office,Morning,1015,1015
+EMP016,1016,Jane,Smith6,Female,1992-02-06,921234506V,jane6@example.com,0771110006,Manager,2023-02-06,HR,Altitude Right,Head Office,Morning,1016,1016
+EMP017,1017,Jane,Smith7,Female,1992-02-07,921234507V,jane7@example.com,0771110007,Manager,2023-02-07,HR,Altitude Right,Head Office,Morning,1017,1017
+EMP018,1018,Jane,Smith8,Female,1992-02-08,921234508V,jane8@example.com,0771110008,Manager,2023-02-08,HR,Altitude Right,Head Office,Morning,1018,1018
+EMP019,1019,Jane,Smith9,Female,1992-02-09,921234509V,jane9@example.com,0771110009,Manager,2023-02-09,HR,Altitude Right,Head Office,Morning,1019,1019
+EMP020,1020,Jane,Smith10,Female,1992-02-10,921234510V,jane10@example.com,0771110010,Manager,2023-02-10,HR,Altitude Right,Head Office,Morning,1020,1020
+EMP021,1021,Jane,Smith11,Female,1992-02-11,921234511V,jane11@example.com,0771110011,Manager,2023-02-11,HR,Altitude Right,Head Office,Morning,1021,1021
+EMP022,1022,Jane,Smith12,Female,1992-02-12,921234512V,jane12@example.com,0771110012,Manager,2023-02-12,HR,Altitude Right,Head Office,Morning,1022,1022
+EMP023,1023,Jane,Smith13,Female,1992-02-13,921234513V,jane13@example.com,0771110013,Manager,2023-02-13,HR,Altitude Right,Head Office,Morning,1023,1023
+EMP024,1024,Jane,Smith14,Female,1992-02-14,921234514V,jane14@example.com,0771110014,Manager,2023-02-14,HR,Altitude Right,Head Office,Morning,1024,1024
+EMP025,1025,Jane,Smith15,Female,1992-02-15,921234515V,jane15@example.com,0771110015,Manager,2023-02-15,HR,Altitude Right,Head Office,Morning,1025,1025
+EMP026,1026,Jane,Smith16,Female,1992-02-16,921234516V,jane16@example.com,0771110016,Manager,2023-02-16,HR,Altitude Right,Head Office,Morning,1026,1026
+EMP027,1027,Jane,Smith17,Female,1992-02-17,921234517V,jane17@example.com,0771110017,Manager,2023-02-17,HR,Altitude Right,Head Office,Morning,1027,1027
+EMP028,1028,Jane,Smith18,Female,1992-02-18,921234518V,jane18@example.com,0771110018,Manager,2023-02-18,HR,Altitude Right,Head Office,Morning,1028,1028
+EMP029,1029,Jane,Smith19,Female,1992-02-19,921234519V,jane19@example.com,0771110019,Manager,2023-02-19,HR,Altitude Right,Head Office,Morning,1029,1029
+EMP030,1030,Jane,Smith20,Female,1992-02-20,921234520V,jane20@example.com,0771110020,Manager,2023-02-20,HR,Altitude Right,Head Office,Morning,1030,1030

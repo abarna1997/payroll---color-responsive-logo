@@ -1,0 +1,82 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Bio-metrics AMS API Documentation",
+        "description": "API Endpoints for Bio-metrics Attendance Management System",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://my-default-host.com",
+            "description": "Main API Server"
+        }
+    ],
+    "paths": {
+        "/api/attendance/web-punch": {
+            "post": {
+                "tags": [
+                    "Attendance"
+                ],
+                "summary": "Submit a Web Punch Attendance Record",
+                "operationId": "2f19253b1af7750846c6795fa1a94ed5",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "latitude",
+                                    "longitude",
+                                    "accuracy",
+                                    "action"
+                                ],
+                                "properties": {
+                                    "latitude": {
+                                        "type": "number",
+                                        "format": "float",
+                                        "example": 6.9271
+                                    },
+                                    "longitude": {
+                                        "type": "number",
+                                        "format": "float",
+                                        "example": 79.8612
+                                    },
+                                    "accuracy": {
+                                        "type": "number",
+                                        "format": "float",
+                                        "example": 25.5
+                                    },
+                                    "action": {
+                                        "type": "string",
+                                        "enum": [
+                                            "CHECK_IN",
+                                            "CHECK_OUT"
+                                        ]
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid state (already checked in/out)"
+                    },
+                    "403": {
+                        "description": "Forbidden (not eligible, GPS out of bounds, etc.)"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Attendance",
+            "description": "Attendance"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+Employee_Number,First_Name,Last_Name,Gender,Date_of_Birth,NIC,Email,Mobile_Number,Designation,Join_Date,Department,Branch,Shift,ADMS_Device_User_ID,ADMS_Sync_PIN,ADMS_Card_Number,ADMS_Privilege
+1001,John,Doe,Male,1990-05-15,199012345678,john.doe@primeone.lk,0771234567,Software Engineer,2026-08-01,IT,Colombo HQ,General Shift,1001,1234,,0
+1002,Jane,Smith,Female,1992-08-20,199287654321,jane.smith@primeone.lk,0717654321,HR Manager,2026-08-15,HR,Colombo HQ,General Shift,1002,5678,987654321,14
+1003,Alex,Johnson,Male,1988-11-10,198855555555,alex.j@primeone.lk,0705555555,Security Officer,2026-08-20,Operations,Galle Branch,Night Shift,1003,9999,,0

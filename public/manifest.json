@@ -1,0 +1,16 @@
+{
+  "name": "BioMetrics AMS",
+  "short_name": "BioMetrics",
+  "start_url": "/launcher",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "description": "Biometric Attendance Management System",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}

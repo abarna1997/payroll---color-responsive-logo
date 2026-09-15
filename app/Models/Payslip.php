@@ -1,0 +1,130 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
+class Payslip extends Model
+{
+    protected $fillable = [
+        'payroll_period_id',
+        'employee_id',
+        'basic_salary',
+        'allowances_json',
+        'fixed_allowances',
+        'variable_allowances',
+        'attendance_bonus',
+        'performance_bonus',
+        'commission',
+        'shift_allowance',
+        'deductions_json',
+        'ot_payment',
+        'normal_ot',
+        'weekend_ot',
+        'holiday_ot',
+        'night_shift_ot',
+        'no_pay_deduction',
+        'late_deduction',
+        'loan_deduction',
+        'advance_deduction',
+        'other_deductions',
+        'epf_employee',
+        'epf_employer',
+        'etf_employer',
+        'apit',
+        'gross_salary',
+        'net_salary',
+        'total_package',
+        'no_wfh_days',
+        'half_days',
+        'no_pay_days',
+        'incentive',
+        'dedu_inc',
+        'kpi_percentage',
+        'dedu_inc_np',
+        'epf_total',
+        'payroll_run_id',
+        'currency',
+        'exchange_rate',
+        'payment_method',
+        'bank_account',
+        'reference_number',
+        'verification_hash',
+        'ot_minutes_calculated',
+        'ot_hours_calculated',
+        'ot_formula_version',
+        'ot_formula_type',
+        'ot_rate_applied',
+        'ot_multiplier_applied',
+        'ot_amount',
+        'tax_year_id',
+        'tax_rule_id',
+        'taxable_income',
+        'relief_applied',
+        'tax_amount',
+        'epf_employee_rate',
+        'epf_employer_rate',
+        'etf_employer_rate',
+        'no_pay_divisor',
+    ];
+
+    protected $casts = [
+        'basic_salary' => 'decimal:2',
+        'total_package' => 'decimal:2',
+        'no_wfh_days' => 'decimal:2',
+        'half_days' => 'decimal:2',
+        'no_pay_days' => 'decimal:2',
+        'incentive' => 'decimal:2',
+        'dedu_inc' => 'decimal:2',
+        'kpi_percentage' => 'decimal:2',
+        'dedu_inc_np' => 'decimal:2',
+        'epf_total' => 'decimal:2',
+        'allowances_json' => 'array',
+        'fixed_allowances' => 'decimal:2',
+        'variable_allowances' => 'decimal:2',
+        'attendance_bonus' => 'decimal:2',
+        'performance_bonus' => 'decimal:2',
+        'commission' => 'decimal:2',
+        'shift_allowance' => 'decimal:2',
+        'deductions_json' => 'array',
+        'ot_payment' => 'decimal:2',
+        'normal_ot' => 'decimal:2',
+        'weekend_ot' => 'decimal:2',
+        'holiday_ot' => 'decimal:2',
+        'night_shift_ot' => 'decimal:2',
+        'no_pay_deduction' => 'decimal:2',
+        'late_deduction' => 'decimal:2',
+        'loan_deduction' => 'decimal:2',
+        'advance_deduction' => 'decimal:2',
+        'other_deductions' => 'decimal:2',
+        'epf_employee' => 'decimal:2',
+        'epf_employer' => 'decimal:2',
+        'etf_employer' => 'decimal:2',
+        'apit' => 'decimal:2',
+        'gross_salary' => 'decimal:2',
+        'net_salary' => 'decimal:2',
+        'exchange_rate' => 'decimal:4',
+        'ot_hours_calculated' => 'decimal:2',
+        'ot_rate_applied' => 'decimal:2',
+        'ot_multiplier_applied' => 'decimal:2',
+        'ot_amount' => 'decimal:2',
+        'taxable_income' => 'decimal:2',
+        'relief_applied' => 'decimal:2',
+        'tax_amount' => 'decimal:2',
+        'epf_employee_rate' => 'decimal:2',
+        'epf_employer_rate' => 'decimal:2',
+        'etf_employer_rate' => 'decimal:2',
+        'no_pay_divisor' => 'decimal:2',
+    ];
+
+    public function employee(): BelongsTo
+    {
+        return $this->belongsTo(Employee::class);
+    }
+
+    public function period(): BelongsTo
+    {
+        return $this->belongsTo(PayrollPeriod::class, 'payroll_period_id');
+    }
+}
